@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: auto;
+}
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+
+a{
+    text-decoration: none;
+    font-size: 19px;
+    color: gray;
+}
+a:hover{
+    transition-property: all;
+    transition-duration: 0.5s;
+    border-radius: 9px;
+    border-bottom: 4px solid aliceblue;
+    border-top: 4px solid aliceblue;
+    box-shadow: 0px 0px 30px aliceblue;
+    color:aliceblue;
+    transform: scale(1.3);
+}
+.select{
+    display: flex;
+    justify-content: space-evenly;
+    width: 325px;
+    position: relative;
+    right: 90px;
+}
+.logo{
+    font-size: 31px;
+    font-style: italic;
+    position: relative;
+    left: 50px;
+    color: aliceblue;
+
+}
+.content{
+    height: 683px;
+    background-image:url("https://e0.pxfuel.com/wallpapers/304/49/desktop-wallpaper-cool-black-and-red.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+}
+.about{
+    height: 380px;
+    width: 500px;
+   color: aliceblue;
+    box-shadow: 0px 0px 30px aliceblue;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/338/580/desktop-wallpaper-black-and-red-group-red-and-black.jpg");
+    background-size: cover;
+    background-position-x: -4px;
+    overflow: auto;
+}
+
+.myimgin{
+    height: 299px;
+    width: 299px;
+    border-radius: 50%;
+    background-image: url("solo.jpg");
+    background-size: cover;
+    border: 4px solid black;
+    animation: move 3s linear infinite;
+}
+@keyframes move{
+    0%{
+      
+        box-shadow: 0px 0px 6px red;
+    }
+    50%{
+      
+        box-shadow: 0px 0px 20px rgb(60, 0, 255);
+    }
+    75%{
+       
+        box-shadow: 0px 0px 20px rgb(4, 96, 16);
+    }
+    100%{
+       
+        box-shadow: 0px 0px 20px rgb(199, 191, 27);
+    }
+}
+.Projects{
+    height: 1200px;
+    width: 1450px;
+    position: relative;
+    border-radius: 13px;
+    box-shadow: 0px 0px 10px black;
+    left: 33px;
+    border: solid;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/448/146/small_2x/digital-transformation-technology-strategy-the-transformation-of-ideas-and-the-adoption-of-technology-in-business-in-the-digital-age-enhancing-global-business-capabilities-ai-photo.jpg");
+    background-size: cover;
+}
+.project1{
+    border-radius: 10px;
+    height:250px;
+    width: 1200px;
+    overflow: auto;
+    box-shadow: 0px 0px 20px black;
+}
+#p1{
+    background-image: url("https://media.istockphoto.com/id/1334591614/photo/man-using-digital-tablet-online-connect-to-internet-banking-currency-exchange-online-shopping.jpg?s=612x612&w=0&k=20&c=nejA5SuHcN2fAdO7Bkaf9pJrwzyLPBCyOLZgMaslGko=");
+    background-size: cover;
+    background-position-y: -142px;
+}
+#p2{
+    background-image: url("https://s35804.pcdn.co/blog/wp-content/uploads/2021/03/why_digital_transformation_is_for_all_manufactures.jpg");
+    background-size: cover;
+    background-position-y: -94px;
+}
+#p3{
+    background-image: url("https://img.freepik.com/premium-photo/future-artificial-intelligence-robot-cyborg_31965-7136.jpg?semt=ais_hybrid&w=740");
+    background-size: cover;
+    background-position-y: -160px;
+}
+#p4{
+    background-image: url("https://www.asseco-ceit.com/wp-content/uploads/2023/09/Asseco_CEIT_Digital_transformation_02.jpg");
+    background-size: cover;
+    background-position-y: -140px;
+
+}
